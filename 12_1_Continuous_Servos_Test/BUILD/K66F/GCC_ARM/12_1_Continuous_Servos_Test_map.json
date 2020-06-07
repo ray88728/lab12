@@ -1,33 +1,11 @@
 [
     {
-        "module": "../..",
-        "size": {
-            ".text": 29787,
-            ".data": 473,
-            ".bss": 6610,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
-        "module": "BUILD/K66F",
-        "size": {
-            ".text": 144,
-            ".data": 0,
-            ".bss": 4,
-            ".text-delta": -4,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
         "module": "[fill]",
         "size": {
             ".text": 124,
             ".data": 11,
-            ".bss": 29,
-            ".text-delta": -4,
+            ".bss": 37,
+            ".text-delta": 4,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -77,11 +55,77 @@
         }
     },
     {
+        "module": "main.o",
+        "size": {
+            ".text": 148,
+            ".data": 0,
+            ".bss": 4,
+            ".text-delta": 4,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/drivers",
+        "size": {
+            ".text": 346,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/hal",
+        "size": {
+            ".text": 1951,
+            ".data": 8,
+            ".bss": 131,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/platform",
+        "size": {
+            ".text": 6207,
+            ".data": 261,
+            ".bss": 221,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/rtos",
+        "size": {
+            ".text": 8233,
+            ".data": 168,
+            ".bss": 5972,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/targets",
+        "size": {
+            ".text": 13648,
+            ".data": 36,
+            ".bss": 286,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
         "summary": {
-            "static_ram": 9720,
+            "static_ram": 9728,
             "static_ram_delta": 0,
-            "total_flash": 60888,
-            "total_flash_delta": -8
+            "total_flash": 61490,
+            "total_flash_delta": 8
         }
     }
 ]
